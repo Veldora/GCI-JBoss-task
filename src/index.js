@@ -70,7 +70,7 @@ function Square (props) {
     jumpTo(step) {
         this.setState({
             currentStep: step,
-            xIsNext: (step % 2) === 0,
+            xIsNext: (step % 2) === 1,
         });
     }
 
